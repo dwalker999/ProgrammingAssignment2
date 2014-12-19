@@ -54,7 +54,8 @@ function.
             m <- x$getmean()
             if(!is.null(m)) {
                     message("getting cached data")
-                    return(m)
+                    return(m)x
+                    
             }
             data <- x$get()
             m <- mean(data, ...)
