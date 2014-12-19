@@ -3,7 +3,7 @@
 ##  
 
 ## This function caches a matrix entered as a parameter
-## and returns a list function.
+## and returns a list object.
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
